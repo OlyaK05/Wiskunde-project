@@ -241,7 +241,7 @@ body {
 
 .top__info-description {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .text__info-description {
@@ -292,4 +292,40 @@ body {
 .underpart__info-inner {
     background-color: rgba(0, 46, 208, 1);
     margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+.underpart__info-title {
+    text-align: center;
+    font-weight: 550;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.underpart__info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.underpart_info-text {
+    color: #fff;
+    font-size: 31px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+.underpart_info-img-right,
+.underpart_info-img-left {
+    padding-top: 100px;
+}
+
+.underpart_info-img {
+    display: flex;
+    justify-content: center;
 }
